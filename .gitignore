@@ -9,3 +9,73 @@ devenv.local.nix
 # pre-commit
 .pre-commit-config.yaml
 
+# Android stuff below
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.iml
+.idea
+build/
+.navigation
+captures/
+output.json
+
+# Gradle cache
+.gradle
+
+#NDK
+obj/
+.externalNativeBuild
+
+.emulators/
+.android
+
+node_modules
+.gradle
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+/build
+.idea/
+*iml
+*.iml
+*/build
+fastlane
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+

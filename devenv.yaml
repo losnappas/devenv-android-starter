@@ -1,3 +1,5 @@
 inputs:
   nixpkgs:
     url: github:NixOS/nixpkgs/nixpkgs-unstable
+  android-nixpkgs:  # Use a repository that makes Android configuration easy
+    url: github:tadfisher/android-nixpkgs/stable
